@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anupama Industry - Plastic Parts Manufacturer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="Anupama Industry logo design.png">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="Anupama Industry logo design.png" alt="Anupama Industry Logo" class="h-10 w-auto">
+        <h1 class="text-2xl font-bold">Anupama Industry</h1>
+      </div>
+      <nav class="space-x-6">
+        <a href="#" class="hover:text-orange-400">Home</a>
+        <a href="#about" class="hover:text-orange-400">About</a>
+        <a href="#products" class="hover:text-orange-400">Products</a>
+        <a href="#contact" class="hover:text-orange-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-800 text-white text-center py-20">
+    <h2 class="text-4xl font-bold mb-4">Precision Plastic Manufacturing</h2>
+    <p class="text-lg">High-quality plastic components for industrial applications</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 container mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-6">About Us</h2>
+    <p>Anupama Industry is a trusted manufacturer of high-quality plastic parts. We specialize in precision molding, durable components, and customized solutions for various industries.</p>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="bg-gray-100 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10">Our Products</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold">Injection Molded Parts</h3>
+          <p>High precision plastic molded components.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold">Automotive Parts</h3>
+          <p>Durable plastic parts for automotive industry.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold">Custom Components</h3>
+          <p>Tailored plastic solutions as per client needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 container mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 border rounded">
+      <input type="email" placeholder="Your Email" class="w-full p-3 border rounded">
+      <textarea placeholder="Your Message" class="w-full p-3 border rounded"></textarea>
+      <button class="bg-blue-900 text-white px-6 py-3 rounded hover:bg-orange-500">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center p-4">
+    <p>© 2026 Anupama Industry | All Rights Reserved</p>
+  </footer>
+
+  <!-- Loader -->
+  <div id="loader" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+    <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-900 border-solid"></div>
+  </div>
+
+  <script>
+    window.addEventListener('load', function() {
+      document.getElementById('loader').style.display = 'none';
+    });
+  </script>
+
+</body>
+</html>
